@@ -466,7 +466,7 @@ body{
     .section1{
         margin-top: 1%;
         background: url(../assets/home/annie-spratt-135307-unsplash@2x.png) no-repeat;
-        height: 40em;
+        height: 43em;
         background-size: cover;
         background-position: right;
         background-position: 75% top;
@@ -480,8 +480,8 @@ body{
     /* The issue box */
     .the-issue-box{
         margin-top: 5em;
-        height: 18rem;
-        width: 25rem;
+        height: 16rem;
+        width: 100%;
         background: #FFFFFF;
         border: none;
         margin-right: 1em;
