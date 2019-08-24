@@ -326,7 +326,6 @@ body{
         margin-top: 1%;
         background: url(../assets/home/annie-spratt-135307-unsplash.png) 0% 0% no-repeat padding-box;
         background-size: cover;
-        background-blend-mode: darken;
         height: 28em;
     }
 
@@ -608,7 +607,45 @@ body{
         margin-right: auto;
         margin-top: 10%;
     }
-    
 }
+    /* Take Action Section */
+
+    .section2{
+        background-color: #C1F7D5;
+        height: 8em;
+    }
+
+    .take-action-box {
+        display: flex;
+        height: 6.5em;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        font-family: Helvetica, sans-serif;
+        position: absolute;
+    }
+    .take-action-legend {
+        position: relative;
+        top: -1.5em;
+        left: 37.5%;
+    }
+    .take-action-items{
+        color: #354463;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .take-action-items p {
+        width: 23%;
+        font-weight: 100;
+        opacity: 0.8;
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    .take-action-items strong{
+        font-weight: 930;
+        font-size: 1.72em;
+        opacity: 1;
+    }
 
 
