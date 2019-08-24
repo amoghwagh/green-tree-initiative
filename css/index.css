@@ -404,7 +404,7 @@ body{
     .the-issue-box{
         margin-top: 5em;
         height: 18rem;
-        width: 25rem;
+        width: 50%;
         background: #FFFFFF;
         border: none;
         margin-right: 1em;
@@ -457,7 +457,7 @@ body{
     .text-climate{
         height: 10em;
         align-self: center;
-        margin-right: 23%;
+        margin-right: auto;
     }
 }
 
@@ -556,6 +556,7 @@ body{
     /* The issue box */
     .the-issue-box{
         margin-top: 7em;
+        width: 100%;
         background: #FFFFFF;
         border: none;
     }
