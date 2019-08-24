@@ -77,6 +77,18 @@ body{
     display: none;
 }
 
+.legend {
+    width: 10em;
+    height: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    background-color: #354463;
+    text-align: center;
+    line-height: 2.5em;
+}
+
     /* Header CSS */
 .container-header {
     line-height: 1.2em;
@@ -90,7 +102,7 @@ body{
     font-family: Helvetica, Sans-Serif;
     font-weight: bold;
     padding-top: 2em;
-    width: 15%;
+    width: 17%;
     margin-right: auto;
 }
     /* Navigation bar */
@@ -306,6 +318,75 @@ body{
     }
 } 
 
+
+    /* CSS for the First Section -> The Issue Section */
+
+.section1{
+    margin-top: 1%;
+    background: url(../assets/home/annie-spratt-135307-unsplash.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 28em;
+}
+
+.container-section1{
+    position: relative;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+ /* The Issue Box */
+
+.the-issue-box{
+    margin-top: 5em;
+    background: #FFFFFF;
+    display: flex;
+    flex-flow: column wrap;
+    height: 18rem;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-right: 1em;
+
+}
+
+.issue-legend{
+    position: absolute;
+    top: 6em;
+    left: 3.5em;
+}
+
+.the-issue-box .text-wrap {
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 2em;
+    width: 80%;
+    padding-bottom: 0.8em;
+    line-height: 1.3em;
+    color: #354463; 
+}
+
+.the-issue-box .text-link {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    opacity: 0.8;
+    font-size: 0.75em;
+    text-align: center;
+    margin-right: 8%;
+}
+
+.text-link a:visited {
+    color: #354463; 
+}
+
+/* Stop Climate Change Text */
+
+.text-climate{
+    height: 10em;
+    align-self: center;
+    margin-right: 22%;
+}
 
 
 
