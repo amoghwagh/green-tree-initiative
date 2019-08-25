@@ -537,9 +537,9 @@
     
     @media all and (max-width:765px) {
         .section1{
-            margin-top: 1%;
+            margin-top: 5%;
             background: url(../assets/home/annie-spratt-135307-unsplash@3x.png) no-repeat;
-            height: 40em;
+            height: 32em;
             background-size: cover;
             background-position: right;
             background-position: 75%;
@@ -552,15 +552,16 @@
     
         /* The issue box */
         .the-issue-box{
-            margin-top: 7em;
+            margin-top: 5em;
             width: 100%;
+            height: 12rem;
             background: #FFFFFF;
             border: none;
         }
         .box-wrap{
-            position: absolute;
+            position: relative;
             top:auto;
-            height: 60%;
+            width: 100%;
             display: flex;
             margin: auto;
             padding-right: 0.5em;
@@ -573,25 +574,25 @@
         
         .the-issue-box .text-wrap {
             font-family: Helvetica;
-            font-weight: 700;
-            font-size: 1.1em;
-            width: 85%;
+            font-weight: 750;
+            font-size: 1.2em;
+            width: 100%;
             padding: 0;
             margin-bottom: 0;
+            padding-top:1em;
             line-height: 1.3em;
             color: #354463; 
             margin: auto;
-            margin-top: auto;
             text-align: center;
         }
     
         .the-issue-box .text-link {
             font-family: Helvetica, sans-serif;
-            position: relative;
             font-weight: lighter;
-            font-size: 0.85em;
+            font-size: 0.75em;
+            width: 80%;
             text-align: center;
-            margin-bottom: 50%;
+            margin: auto;
         }
         
         .text-link a:visited {
@@ -746,4 +747,62 @@
             margin-right: auto;
         }
     }
+
+    /* Responsive Layout of Take Action Section for Mobiles */
     
+    @media all and (max-width:765px) {
+    .section2{
+        height: 13em;
+    }
+
+    .take-action-box {
+        display: flex;
+        height: 6em;
+        width: 85%;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        font-family: Helvetica, sans-serif;
+    }
+    .take-action-legend {
+        position: relative;
+        top: -1.5em;
+        left: 35%;
+    }
+    .take-action-items{
+        color: #354463;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+
+    .take-action-items p {
+        width: 40%;
+        font-weight: 100;
+        opacity: 0.8;
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    .take-action-items strong{
+        font-weight: 930;
+        font-size: 1.72em;
+        opacity: 1;
+    }
+
+    .text-volunteer {
+        align-self: flex-end;
+        position: absolute;
+        top: 2em;
+        margin-right: auto;
+    }
+
+    .text-share {
+        margin-top: 2em;
+    }
+
+    .text-donate {
+        align-self: flex-end;
+        position: absolute;
+        top: 7.5rem;
+        margin-right: auto;
+    }
+}
