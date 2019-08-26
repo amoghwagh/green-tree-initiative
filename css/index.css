@@ -1293,7 +1293,7 @@
     
 @media all and (max-width:765px) {
     .section3 {
-        height: 100em;
+        height: 80em;
         background-color: #354463;
     }
 
@@ -1850,3 +1850,7 @@
             width: 100%;
         } 
     }
+
+     /* Responsive Layout of Did you know Section for Mobiles */
+    
+     @media all and (max-width:765px) {
