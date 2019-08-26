@@ -2147,3 +2147,63 @@
             margin-top: auto;
         }
     }
+
+     /* Responsive Layout of Stories Section for Tablets */
+    
+     @media all and (min-width : 765px) and (max-width : 1024px){
+        .section5 {
+            height: 50rem;
+        }
+   
+        .container-section5 {
+            height: 100%;
+            display: flex;
+        }
+        
+        .stories-wrap {
+            flex-flow: column-reverse wrap;
+            position: relative;
+        }
+        .stories-quote {
+            position: relative;
+            top: -3em;
+            left: 1.5em;
+            z-index: 1;
+            display: flex;
+            flex-flow: row wrap;
+            height: 14rem;
+            width: 90%;
+            justify-content: space-around;
+            font-family: Arial, Helvetica, sans-serif;
+            color:#FFFFFF;
+            background-color: #354463;
+        }
+
+        .quote {
+            padding-top: 1em;
+            font-weight: bolder;
+            font-size: 1.2em;
+            margin: auto;
+            line-height: 1.3em;
+            width: 75%;
+         }
+    
+         .quoted-by {
+             color: white;
+             font-size: 0.65em;
+             font-weight: lighter;
+             margin: auto;
+             margin-left: 12.5%;
+             margin-top: 0;
+         }
+
+        .stories-wrap .read-more {
+            position: absolute;
+            top: 95%;
+            left: 10%;
+
+        }
+
+
+        
+     }
