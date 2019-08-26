@@ -2151,6 +2151,7 @@
      /* Responsive Layout of Stories Section for Tablets */
     
      @media all and (min-width : 765px) and (max-width : 1024px){
+        
         .section5 {
             height: 50rem;
         }
@@ -2203,7 +2204,75 @@
             left: 10%;
 
         }
-
-
-        
      }
+
+/* Responsive Layout of Stories Section for Mobiles */
+    
+    @media all and (max-width:765px) {
+        .section5 {
+            height: 42rem;
+        }
+   
+        .container-section5 {
+            height: 100%;
+            display: flex;
+        }
+        
+        .stories-wrap {
+            flex-flow: column-reverse wrap;
+            margin: 0;
+            width: 100%;
+            position: relative;
+            top: -2em;
+        }
+
+        .stories-wrap img {
+            width: 100%;
+            display: inline;
+        }
+        .stories-quote {
+            position: relative;
+            left: 0;
+            display: flex;
+            flex-flow: row wrap;
+            align-self: flex-start;
+            height: 15rem;
+            width: 100%;
+            margin: 0;
+            margin-top: -em;
+            justify-content: space-around;
+            font-family: Arial, Helvetica, sans-serif;
+            color:#FFFFFF;
+            background-color: #354463;
+        }
+
+        .quote {
+            font-weight: bolder;
+            font-size: 1.1em;
+            margin: auto;
+            line-height: 1.3em;
+            text-align: center;
+            width: 80%;
+         }
+    
+         .quoted-by {
+             color: white;
+             font-size: 0.60em;
+             font-weight: lighter;
+             margin: 0;
+             margin-top: 5%;
+         }
+
+        .stories-wrap .read-more {
+            position: absolute;
+            top: 105%;
+            left: auto;
+
+        }
+        .stories-legend {
+            position: absolute;
+            top:-1em;
+            left: 23%;
+            margin-top: auto;
+        }
+    }
