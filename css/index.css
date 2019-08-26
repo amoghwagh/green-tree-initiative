@@ -752,7 +752,7 @@
     
     @media all and (max-width:765px) {
     .section2{
-        height: 13em;
+        height: 15em;
     }
 
     .take-action-box {
@@ -1285,5 +1285,180 @@
         margin-left: 8%;
         font-size: 0.8em;
         font-weight: 900;
+    }
+}
+
+/* Responsive Layout of What We Do Section for Mobiles */
+    
+@media all and (max-width:765px) {
+    .section3 {
+        height: 78em;
+        background-color: #354463;
+    }
+
+    .what-we-do-legend {
+        background-color: white;
+        color: #354463;
+        font-weight: 500;
+        width: 50%;
+        align-self: center;
+        position: relative;
+        top: -3%;
+    }
+    .container-section3 {
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+
+    .text-mission {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1.1em;
+        text-align: center;
+        color: #FFFFFF;
+        width: 100%;
+        position: relative;
+        top: -10%;
+    }
+
+    .what-we-do-boxes {
+        display: flex;
+        height: 60%;
+        width: 100%;
+        flex-flow: column nowrap;
+        color : #354463;
+        position: relative;
+        top: -16%;
+    }
+    .what-we-do-boxes img {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: -8%;
+    }
+
+    .tree-box {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        background: #FFFFFF;
+        height: 100%;
+    }
+    .tree-box strong {
+        font-size: 1em;
+        font-weight: 550;
+        line-height: 1.2em;
+        align-self: center; 
+        position: relative;
+        top: -6%;
+        left: auto;
+        text-align: center;
+        width: 85%;
+    }
+
+    .tree-box p {
+        font-size: 0.7em;
+        font-weight: lighter;
+        line-height: 1.4em;
+        align-self: center;
+        position: relative;
+        text-align: center;
+        top: -3%;
+        left: 0;
+        width: 80%;
+    }
+
+    .tree-box .read-more {
+        width: 40%;
+        padding: auto;
+        margin-left: 27%;
+        font-size: 0.7em;
+        font-weight: 800;
+        margin-top: 1em;
+    }
+
+    .education-box {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        margin: 3em 0;
+        background: #FFFFFF;
+        height: 100%;
+    }
+
+    .education-box strong {
+        font-size: 1em;
+        font-weight: 550;
+        line-height: 1.2em;
+        align-self: center; 
+        position: relative;
+        top: -6%;
+        left: auto;
+        text-align: center;
+        width: 85%;
+    }
+
+    .education-box p {
+        font-size: 0.7em;
+        font-weight: lighter;
+        line-height: 1.4em;
+        align-self: center;
+        position: relative;
+        text-align: center;
+        top: -3%;
+        left: 0;
+        width: 80%;
+    }
+
+    .education-box .read-more {
+        width: 40%;
+        padding: auto;
+        margin-left: 27%;
+        font-size: 0.7em;
+        font-weight: 800;
+        margin-top: 1em;
+    }
+
+    .advocacy-box {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        background: #FFFFFF;
+        height: 100%;
+    }
+
+    .advocacy-box strong {
+        font-size: 1em;
+        font-weight: 550;
+        line-height: 1.2em;
+        align-self: center; 
+        position: relative;
+        top: -6%;
+        left: auto;
+        text-align: center;
+        width: 85%;
+    }
+
+    .advocacy-box p {
+        font-size: 0.7em;
+        font-weight: lighter;
+        line-height: 1.4em;
+        align-self: center;
+        position: relative;
+        text-align: center;
+        top: -3%;
+        left: 0;
+        width: 80%;
+    }
+
+    .advocacy-box .read-more {
+        width: 40%;
+        padding: auto;
+        margin-left: 27%;
+        font-size: 0.7em;
+        font-weight: 800;
+        margin-top: 1em;
     }
 }
