@@ -294,6 +294,7 @@
             display: none;
         }
         /* Created Button for Mobile Layout */
+
         .mobile-display-btn {
             display: flex;
             position: absolute;
@@ -1297,7 +1298,7 @@
     
 @media all and (max-width:765px) {
     .section3 {
-        height: 100em;
+        height: 90em;
         background-color: #354463;
     }
 
@@ -1335,7 +1336,7 @@
         flex-flow: column nowrap;
         color : #354463;
         position: relative;
-        top: -12%;
+        top: -10%;
     }
     .what-we-do-boxes img {
         width: 80%;
@@ -2164,6 +2165,7 @@
         .stories-wrap {
             flex-flow: column-reverse wrap;
             position: relative;
+            margin-left: 0;
         }
         .stories-quote {
             position: relative;
