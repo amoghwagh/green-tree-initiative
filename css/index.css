@@ -1347,7 +1347,7 @@
         height: 100%;
     }
     .tree-box strong {
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: 550;
         line-height: 1.2em;
         align-self: center; 
@@ -1389,7 +1389,7 @@
     }
 
     .education-box strong {
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: 550;
         line-height: 1.2em;
         align-self: center; 
@@ -1430,7 +1430,7 @@
     }
 
     .advocacy-box strong {
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: 550;
         line-height: 1.2em;
         align-self: center; 
