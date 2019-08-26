@@ -60,6 +60,7 @@
         font-weight: bold;
         font-size: 0.9rem;
         background: #C1F7D5;
+        color: #354463;
         width: 8.3em;
         height: 1.6em;
         padding: 0.5em;
@@ -836,7 +837,7 @@
     .what-we-do-boxes {
         display: flex;
         height: 60%;
-        width: 90%;
+        width: 95%;
         flex-flow: row nowrap;
         color : #354463;
     }
@@ -871,7 +872,7 @@
         position: relative;
         left: 8%;
         top: -3%;
-        width: 85%;
+        width: 80%;
     }
 
     .tree-box .read-more {
@@ -910,7 +911,7 @@
         position: relative;
         left: 8%;
         top: -3%;
-        width: 85%;
+        width: 80%;
     }
 
     .education-box .read-more {
@@ -948,7 +949,7 @@
         position: relative;
         left: 8%;
         top: -3%;
-        width: 85%;
+        width: 80%;
     }
 
     .advocacy-box .read-more {
@@ -989,7 +990,7 @@
     .what-we-do-boxes {
         display: flex;
         height: 60%;
-        width: 90%;
+        width: 95%;
         flex-flow: row nowrap;
         color : #354463;
     }
@@ -1024,7 +1025,7 @@
         position: relative;
         left: 8%;
         top: -3%;
-        width: 85%;
+        width: 80%;
     }
 
     .tree-box .read-more {
@@ -1063,7 +1064,7 @@
         position: relative;
         left: 8%;
         top: -3%;
-        width: 85%;
+        width: 80%;
     }
 
     .education-box .read-more {
@@ -1101,7 +1102,7 @@
         position: relative;
         left: 8%;
         top: -3%;
-        width: 85%;
+        width: 80%;
     }
 
     .advocacy-box .read-more {
@@ -1462,3 +1463,250 @@
         margin-top: 1em;
     }
 }
+
+/* Did you know section of the Web Page */
+
+    .section4 {
+        background: url(../assets/home/did-you-know-background.png) 0 0 no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 60em;
+        }
+
+    .container-section4 {
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .take-action-wrap-box {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        position: relative;
+        top: -6em;
+        width: 35%;
+    }
+
+    .take-action {
+        position: relative;
+        top: -22em;
+    }
+
+    .did-you-know-container {
+        position: relative;
+        margin-top: 4em;
+    }
+
+    .did-you-know-wrap-box {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        height: 100%;
+        color: #354463;
+    }
+
+
+    .did-you-know-wrap-box p {
+        height: auto;
+        font-size: 1em;
+        line-height: 1.7em;
+        width: 60%;
+        position: relative;
+        left: 3em;
+        top: 3em;
+    }
+
+    .did-you-know-wrap-box strong {
+        font-size: 2.70em;
+        font-weight: 550;
+        text-align: center;
+    }
+    .img-wrap {
+        position: relative;
+        left: 5em;
+    }
+
+    .img-wrap a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.6em;
+        height: 1.6em;
+        background: #C1F7D5;
+        border-radius: 50%;
+        margin: 0.5em 0;
+    }
+
+    .did-you-know-wrap-box .img-wrap {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .did-you-know-legend {
+        position: absolute;
+        width: 27.5%;
+        top: 1.5%;
+        left: 10%;
+    }
+
+    .box1 {
+        background: #FFFFFF;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 20%;
+        width: 100%;
+    }
+
+    .box2{
+        background: #FFFFFF;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 20%;
+        width: 100%;
+
+    }
+
+    .box3{
+        background: #FFFFFF;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 20%;
+        width: 100%;
+    }
+
+    .box4{
+        background: #FFFFFF;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 20%;
+        width: 100%;
+    }
+
+    /* Responsive Layout of Did you Know Section for Laptops  */
+    @media all and (max-width:1280px) {
+        .section4 {
+            background: url(../assets/home/did-you-know-background.png) 0 0 no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 60em;
+            }
+    
+        .container-section4 {
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+    
+        .take-action-wrap-box {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            position: relative;
+            top: -6em;
+            width: 35%;
+        }
+    
+        .take-action {
+            position: relative;
+            top: -22em;
+        }
+    
+        .did-you-know-container {
+            position: relative;
+            margin-top: 4em;
+        }
+    
+        .did-you-know-wrap-box {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            height: 100%;
+            color: #354463;
+        }
+    
+    
+        .did-you-know-wrap-box p {
+            height: auto;
+            font-size: 1em;
+            line-height: 1.7em;
+            width: 60%;
+            position: relative;
+            left: 3em;
+            top: 3em;
+        }
+    
+        .did-you-know-wrap-box strong {
+            font-size: 2.70em;
+            font-weight: 550;
+            text-align: center;
+        }
+        .img-wrap {
+            position: relative;
+            left: 5em;
+        }
+    
+        .img-wrap a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1.6em;
+            height: 1.6em;
+            background: #C1F7D5;
+            border-radius: 50%;
+            margin: 0.5em 0;
+        }
+    
+        .did-you-know-wrap-box .img-wrap {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            height: 100%;
+        }
+    
+        .did-you-know-legend {
+            position: absolute;
+            width: 27.5%;
+            top: 1.5%;
+            left: 10%;
+        }
+    
+        .box1 {
+            background: #FFFFFF;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 20%;
+            width: 100%;
+        }
+    
+        .box2{
+            background: #FFFFFF;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 20%;
+            width: 100%;
+    
+        }
+    
+        .box3{
+            background: #FFFFFF;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 20%;
+            width: 100%;
+        }
+    
+        .box4{
+            background: #FFFFFF;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 20%;
+            width: 100%;
+        } 
+    }
+
+    /* Responsive Layout of Did you know section for Tablets  */
