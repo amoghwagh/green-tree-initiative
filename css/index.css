@@ -810,14 +810,15 @@
  /* CSS for The What We Do Section */
 
     .section3 {
-        height: 47em;
+        height: 55em;
         background-color: #354463;
     }
 
     .what-we-do-legend {
         background-color: white;
         color: #354463;
-        font-weight: 570;
+        font-weight: 500;
+        font-size: 1em;
         width: 12.5%;
     }
 
@@ -835,10 +836,12 @@
     }
 
     .what-we-do-boxes {
+        margin-left: 5em;
         display: flex;
         height: 60%;
-        width: 95%;
+        width: 85%;
         flex-flow: row nowrap;
+        justify-content: center;
         color : #354463;
     }
     .what-we-do-boxes img {
@@ -990,6 +993,7 @@
     .what-we-do-boxes {
         display: flex;
         height: 60%;
+        margin-left: 0;
         width: 95%;
         flex-flow: row nowrap;
         color : #354463;
@@ -1293,7 +1297,7 @@
     
 @media all and (max-width:765px) {
     .section3 {
-        height: 80em;
+        height: 100em;
         background-color: #354463;
     }
 
@@ -1857,7 +1861,7 @@
         .section4 {
             background: url(../assets/home/did-you-know-background@3x.png) 0 0 no-repeat;
             background-size: cover;
-            background-position: left;
+            background-position: top left;
             height: 55em;
             }
     
