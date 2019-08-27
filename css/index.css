@@ -87,6 +87,7 @@
     .legend {
         width: 10em;
         height: 2.5em;
+        text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         font-size: 0.7em;
@@ -2738,6 +2739,7 @@
             flex-flow: column nowrap;
             height: 15em; 
             margin-top: -2em;
+            margin-left: 0;
         }
     
         .latest-news-wrap {
@@ -2793,4 +2795,48 @@
             font-size: 0.75em;
             width: 10em;
         }
+     }
+
+     /* Newsletter Section */
+     .section7 {
+         height: 10em;
+         background-color: #C1F7D5;
+     }
+
+     .container-section7 {
+         height: 100%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+     }
+
+     .section7 .text {
+         width: 50%;
+         font-size: 1.4em;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: bolder;
+         color: #354463;   
+     }
+
+     .section7 input {
+         font-family: Helvetica, sans-serif;
+         font-weight: lighter;
+         font-size: 0.75em;
+         width: 16em;
+         height: 2em;
+         border: none;
+         border-radius: 5em;
+     }
+
+     .section7 ::placeholder {
+         padding-left: 1.2em;
+     }
+
+     .section7 .read-more {
+         background: #354463;
+         color: #C1F7D5;
+         padding-top: 1em;
+         font-size: 0.7em;
+         position: relative;
+         top:0;
      }
