@@ -2997,7 +2997,7 @@
          font-size: 2.2em;
          width: 20%;
          position: relative;
-         left: 2em;
+         left: 1em;
      }
 
      .footer-wrap p {
@@ -3012,4 +3012,75 @@
          width: 14%;
      }
 
-     
+     .social-links a:visited {
+        color: #354463;
+     }
+
+     /* Responsive Layout of footer for Tablets */
+    
+    @media all and (min-width : 765px) and (max-width : 1024px){
+        footer {
+            height: 20rem;
+        }
+   
+        .container-footer {
+            display: flex;
+            flex-flow : row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .container-footer #logo {
+            font-size: 1.1em;
+            width: 25%;
+            align-self: flex-start;
+            position: relative;
+            top: 2.5em;
+            left: 0;
+        }
+   
+        .footer-wrap {
+            display: flex;
+            flex-flow: row wrap;
+            width: 65%;
+            justify-content: space-between;
+            height: 14em;
+        }
+   
+        .footer-wrap h3 {
+           font-size: 0.7em;
+           margin-bottom: 0.2em;
+           line-height: 1.4em;
+           text-transform: uppercase;
+           font-weight: lighter;
+           border-bottom: 0.05em solid #354463;
+           color: #354463;
+        }
+   
+        .footer-wrap .text-wrap {
+            font-family: ‘flood-std’;
+            color: #354463;
+            font-size: 2em;
+            width: 20%;
+            left: -2.5em;
+            top: 0.1em;
+        }
+   
+        .footer-wrap p {
+            font-weight: lighter;
+            line-height: 1.2em;
+            font-size: 0.8em;
+            margin-top: 0.5em;
+            color: #354463;
+        }
+   
+        .footer-wrap div {
+            width: 40%;
+        }
+    }
+     /* Responsive Layout of Footer Section for Mobiles */
+    
+    @media all and (max-width:765px) {
+        
+    }
