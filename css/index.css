@@ -2973,6 +2973,7 @@
          align-self: flex-start;
          position: relative;
          top: 2.5em;
+         line-height: 1.2em;
      }
 
      .footer-wrap {
@@ -3038,6 +3039,7 @@
             position: relative;
             top: 2.5em;
             left: 0;
+            line-height: 1.2em;
         }
    
         .footer-wrap {
@@ -3049,7 +3051,7 @@
         }
    
         .footer-wrap h3 {
-           font-size: 0.7em;
+           font-size: 0.5em;
            margin-bottom: 0.2em;
            line-height: 1.4em;
            text-transform: uppercase;
@@ -3065,6 +3067,7 @@
             width: 20%;
             left: -2.5em;
             top: 0.1em;
+            order: 4;
         }
    
         .footer-wrap p {
@@ -3074,13 +3077,111 @@
             margin-top: 0.5em;
             color: #354463;
         }
+        
    
         .footer-wrap div {
             width: 40%;
         }
+
+        .footer-wrap .address
+        {
+            order: 1;
+        }
+
+        .footer-wrap .links {
+            order : 3
+        }
+
+        .footer-wrap .social-links {
+            order: 2;
+        }
     }
-     /* Responsive Layout of Footer Section for Mobiles */
+     
+    /* Responsive Layout of Footer Section for Mobiles */
     
     @media all and (max-width:765px) {
+        footer {
+            height: 18rem;
+        }
+   
+        .container-footer {
+            display: flex;
+            flex-flow : row nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 100%;
+            margin-top: 0;
+            position: relative;
+        }
         
+        .container-footer #logo {
+            font-size: 0.9em;
+            width: 40%;
+            align-self: flex-start;
+            position: relative;
+            top: 0;
+            left: 0;
+            line-height: 1.2em;
+        }
+   
+        .footer-wrap {
+            display: flex;
+            flex-flow: column wrap;
+            width: 50%;
+            justify-content: space-between;
+            height: 15em;
+            margin-top: 1.5em;
+        }
+   
+        .footer-wrap h3 {
+           font-size: 0.5em;
+           margin-bottom: 0.2em;
+           line-height: 1.4em;
+           text-transform: uppercase;
+           font-weight: lighter;
+           border-bottom: 0.05em solid #354463;
+           color: #354463;
+        }
+   
+        .footer-wrap .text-wrap {
+            font-family: ‘flood-std’;
+            color: #354463;
+            font-size: 1.5em;
+            width: 100%;
+            top: 0;
+            left: 0;
+            order: 4;
+            position: relative;
+            text-align: right;
+            left: -1em;
+        }
+   
+        .footer-wrap p {
+            font-weight: lighter;
+            line-height: 1.2em;
+            font-size: 0.6em;
+            margin-top: 0.5em;
+            color: #354463;
+        }
+   
+        .footer-wrap div {
+            width: 75%;
+        }
+
+        .footer-wrap .address
+        {
+            order: 1;
+        }
+
+        .footer-wrap .links {
+            order : 3
+        }
+
+        .footer-wrap .social-links {
+            order: 2;
+            position: absolute;
+            left: 0;
+            top: 37.5%;
+            width: 30%;
+        }
     }
