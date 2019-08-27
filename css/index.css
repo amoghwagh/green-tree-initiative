@@ -1309,6 +1309,7 @@
 
     .what-we-do-legend {
         background-color: white;
+        font-size: 0.8em;
         color: #354463;
         font-weight: 500;
         width: 50%;
@@ -2357,6 +2358,8 @@
         display: flex;
         flex-flow: row-reverse nowrap;
         height: 28em; 
+        margin-top: 2em;
+        margin-left: -4em;
     }
 
     .latest-news-wrap {
@@ -2446,7 +2449,7 @@
             font-size: 2.3em;
             color: white;
             font-weight: bolder;
-            width: 100%;
+            width: 85%;
             line-height: 1.25em;
         }
     
@@ -2455,7 +2458,7 @@
             color: #FFFFFF;
             font-weight: lighter;
             font-size: 0.9em;
-            width: 100%;
+            width: 85%;
             line-height: 1.4em;
         }
         
@@ -2575,8 +2578,7 @@
             width: 100%;
             line-height: 1.25em;
         }
-    
-    
+
         .event-wrap p {
             color: #FFFFFF;
             font-weight: lighter;
@@ -2649,3 +2651,146 @@
             width: 10em;
         }
     }
+
+     /* Responsive Layout of Events and Latest News for Mobiles */
+    
+     @media all and (max-width:765px) {
+        .section6 {
+            height: 80em;
+            background-color: #354463;
+        }
+    
+        .container-section6 {
+            display: flex;
+            flex-flow: column nowrap;
+            height: 100%;
+        }
+    
+        .container-section6 img {
+            width: 100%;
+            height: auto;
+            max-width: 25em;
+        }
+    
+        .text-take-action {
+            font-family: ‘flood-std’;
+            color : #FFFFFF;
+            font-size: 2.2em;
+            text-align: center;
+            width: 100%;
+            margin: 2em 0;
+                }
+    
+        .event-container {
+            position: relative;
+            display: flex;
+            flex-flow: column nowrap;
+            height: 35em;
+        }
+    
+        .event-wrap {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            margin: auto;
+            height: 100%;
+        }
+    
+        .event-wrap h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.1em;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            width: 100%;
+            line-height: 1.25em;
+            margin: 1em 0;
+        }
+
+        .event-wrap p {
+            color: #FFFFFF;
+            font-weight: lighter;
+            font-size: 0.7em;
+            text-align: center;
+            width: 100%;
+            line-height: 1.4em;
+        }
+        
+        .event-wrap .read-more {
+            font-size: 0.5em;
+            top: 2em;
+        }
+    
+        .event-legend {
+            position: absolute;
+            top: -1em;
+            background: #FFFFFF;
+            color: #354463;
+            font-weight: 600;
+            font-size: 0.75em;
+            width: 10em;
+        }
+    
+        .latest-news-container {
+            position: relative;
+            display: flex;
+            flex-flow: column nowrap;
+            height: 15em; 
+            margin-top: -2em;
+        }
+    
+        .latest-news-wrap {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            margin: auto;
+            height: 100%;
+        }
+    
+        .latest-news-wrap h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.1em;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            width: 100%;
+            line-height: 1.25em;
+            margin: 1em 0;
+        }
+    
+    
+        .latest-news-wrap p {
+            color: #FFFFFF;
+            font-weight: lighter;
+            font-size: 0.7em;
+            text-align: center;
+            width: 100%;
+            line-height: 1.4em;
+        }
+    
+        .latest-news-wrap img {
+            margin-left: auto;
+            margin-top: auto;
+        }
+    
+        .latest-news-wrap .read-more {
+            font-size: 0.5em;
+            top: 2em;   
+        }
+    
+        .latest-news-legend {
+            position: absolute;
+            top: -1em;
+            background: #FFFFFF;
+            color: #354463;
+            font-weight: 600;
+            font-size: 0.75em;
+            width: 10em; background: #FFFFFF;
+            color: #354463;
+            font-weight: 600;
+            font-size: 0.75em;
+            width: 10em;
+        }
+     }
