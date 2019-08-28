@@ -1,0 +1,51 @@
+/* Global */
+    
+body{
+    background: #FFFFFF;
+    font-family: Helvetica, Sans-Serif;
+}
+
+@font-face {
+    font-family: ‘flood-std’;
+    src: url(https://use.typekit.net/pf/typt/khwz/n4/l?subset_id=1&fvd=n4&ec_token=3bb2a6e53c9684ffdc9a9bf7185b2a6276e0698d66f4110a2ab9340afa69d4d766077cf2280e970caeacca0e54695db78a301448dd3861150fb50e40c80a0eba6808383a5b5031fda18044fa921293d018238cd0ea2f18d9d946965f33abc99a8b3bb0b6f919a1adc58beb401bf1b72b);
+}
+
+.big-button {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    bottom: 0.8em;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background: #C1F7D5;
+    color: #354463;
+    width: 8.3em;
+    height: 1.6em;
+    padding: 0.5em;
+    padding-top: 0.6em;
+    text-align: center;
+    border-radius: 2em;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+.mobile-display-btn{
+    display: none;
+}
+
+.legend {
+    width: 10em;
+    height: 2.5em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    background-color: #354463;
+    text-align: center;
+    line-height: 2.5em;
+}
