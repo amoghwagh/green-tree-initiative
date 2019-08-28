@@ -59,8 +59,13 @@ footer {
     width: 14%;
 }
 
+.social-links a {
+    text-decoration: none;
+}
+
 .social-links a:visited {
    color: #354463;
+   text-decoration: none;
 }
 
 /* Responsive Layout of footer for Tablets */

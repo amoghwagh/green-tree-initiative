@@ -60,6 +60,7 @@
             font-size: 0.7em;
             margin-left: 4em;
             padding-bottom: 1.4em;
+            text-decoration: none;
         }
     
         .text-link a:visited {
