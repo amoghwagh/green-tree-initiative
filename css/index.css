@@ -75,71 +75,6 @@
     
     /* Responsive version of The Issue Box */
     
-    /* Responsive for Laptops */
-    @media all and (max-width:1280px) {
-    
-        /* The issue box */
-        .the-issue-box{
-            margin-top: 5em;
-            height: 18rem;
-            width: 50%;
-            background: #FFFFFF;
-            border: none;
-            margin-right: 1em;
-        }
-        .box-wrap{
-            position: relative;
-            height: 100%;
-            width: 100;
-            display: flex;
-            flex-flow: column wrap;
-            align-items: center;
-            margin: auto;
-        }
-    
-        .issue-legend{
-            position: absolute;
-            top: -1em;
-            left: 4em;
-        }
-    
-        .the-issue-box .text-wrap {
-            font-family: Helvetica;
-            font-weight: 600;
-            font-size: 2em;
-            width: 90%;
-            padding: 0;
-            margin-bottom: 0;
-            line-height: 1.3em;
-            color: #354463; 
-            margin: auto;
-            margin-top: auto;
-        }
-    
-        .the-issue-box .text-link {
-            font-family: Helvetica, sans-serif;
-            font-weight: lighter;
-            opacity: 0.8;
-            font-size: 0.75em;
-            text-align: center;
-            margin-right: auto;
-            margin-bottom: 5%;
-            margin-left: 10%;
-        }
-    
-        .text-link a:visited {
-            color: #354463; 
-        }
-    
-        /* Stop Climate Change Text */
-    
-        .text-climate{
-            height: 10em;
-            align-self: center;
-            margin-right: auto;
-        }
-    }
-    
     /* Responsive Layout of The Issue Section for Tablets */
     
     @media all and (min-width : 765px) and (max-width : 1024px){
@@ -2128,7 +2063,6 @@
             line-height: 1.25em;
         }
     
-    
         .event-wrap p {
             color: #FFFFFF;
             font-weight: lighter;
@@ -2510,7 +2444,6 @@
      .section7 .subscribe {
          background: #354463;
          color: #C1F7D5;
-         padding-top: 1em;
          font-size: 0.7em;
          position: relative;
          top:0;
@@ -2561,7 +2494,6 @@
         .section7 .subscribe {
             background: #354463;
             color: #C1F7D5;
-            padding-top: 1em;
             font-size: 0.7em;
             position: relative;
             top:0;
@@ -2613,7 +2545,6 @@
         .section7 .subscribe {
             background: #354463;
             color: #C1F7D5;
-            padding-top: 1em;
             font-size: 0.5em;
             position: relative;
             top:-2em;
