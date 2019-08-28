@@ -23,7 +23,7 @@ body{
     padding: 0.5em;
     text-align: center;
     border-radius: 2em;
-    text-transform: uppercase;
+    text-transform: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,4 +50,5 @@ body{
     background-color: #354463;
     text-align: center;
     line-height: 2.5em;
+    text-transform: uppercase;
 }
