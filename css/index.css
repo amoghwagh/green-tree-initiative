@@ -165,16 +165,18 @@
     
         .container-section1{
             flex-direction: column-reverse;
+            justify-items: center;
             width: 85%;
+            height: 100%;
         }
     
         /* The issue box */
         .the-issue-box{
-            margin-top: 5em;
-            width: 100%;
+            width: 90%;
             height: 12rem;
             background: #FFFFFF;
             border: none;
+            margin: auto;
         }
         .box-wrap{
             position: relative;
@@ -182,7 +184,6 @@
             width: 100%;
             display: flex;
             margin: auto;
-            padding-right: 0.5em;
         }
     
         .issue-legend{
@@ -193,8 +194,8 @@
         .the-issue-box .text-wrap {
             font-family: Helvetica;
             font-weight: 750;
-            font-size: 1.2em;
-            width: 100%;
+            font-size: 1.1em;
+            width: 90%;
             padding: 0;
             margin-bottom: 0;
             padding-top:1em;
@@ -207,7 +208,7 @@
         .the-issue-box .text-link {
             font-family: Helvetica, sans-serif;
             font-weight: lighter;
-            font-size: 0.75em;
+            font-size: 0.7em;
             width: 80%;
             text-align: center;
             margin: auto;
@@ -220,20 +221,22 @@
         /* Stop Climate Change Text */
         
         .text-climate{
-            height: 10em;
+            height: auto;
+            width: 55%;
             margin-right: auto;
             margin-top: 10%;
         }
     }
         /* Take Action Section */
-    
+        .container {
+            overflow: unset;
+        }
         .section2{
             background-color: #C1F7D5;
             height: 9em;
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative;
         }
         
         .take-action-box {
@@ -243,12 +246,12 @@
             flex-flow: column nowrap;
             justify-content: space-around;
             font-family: Helvetica, sans-serif;
+            position: relative;
         }
         .take-action-legend {
             position: absolute;
-            top: -1em;
+            top: -3em;
             align-self: center;
-            z-index: 1;
         }
         .take-action-items{
             color: #354463;
@@ -274,33 +277,43 @@
         /* Responsive Layout for Take Action Section */
 
         /* Responsive Layout of Take Action Section for Tablet */
-     @media all and (min-width : 765px) and (max-width : 1024px){
+
+        @media all and (min-width : 765px) and (max-width : 1024px){
         .section2{
             height: 13em;
+            display: flex;
+        }
+
+        .container-section2 {
+            height: 100%;
         }
     
         .take-action-box {
+            position: relative;
             display: flex;
-            height: 6.5em;
-            width: 85%;
-            flex-flow: column nowrap;
+            height: 100%;
+            width: 100%;
+            flex-flow: column wrap;
             justify-content: space-between;
             font-family: Helvetica, sans-serif;
         }
         .take-action-legend {
-            position: relative;
+            position: absolute;
             top: -1.5em;
-            left: 35%;
+            align-self: center;
         }
+
         .take-action-items{
+            margin-top: 2em;
             color: #354463;
             display: flex;
-            flex-flow: column nowrap;
-            justify-content: space-around;
+            height: 100%;
+            flex-flow: row wrap;
+            justify-content: space-between;
         }
     
         .take-action-items p {
-            width: 40%;
+            width: 35%;
             font-weight: 100;
             opacity: 0.8;
             font-size: 0.8em;
@@ -311,25 +324,8 @@
             font-size: 1.72em;
             opacity: 1;
         }
-    
-        .text-volunteer {
-            align-self: flex-end;
-            position: absolute;
-            top: 2em;
-            margin-right: auto;
-        }
-    
-        .text-share {
-            margin-top: 2em;
-        }
-    
-        .text-donate {
-            align-self: flex-end;
-            position: absolute;
-            top: 7.5rem;
-            margin-right: auto;
-        }
     }
+
 
     /* Responsive Layout of Take Action Section for Mobiles */
     
@@ -338,55 +334,47 @@
         height: 15em;
     }
 
+    .container-section2 {
+        height: 100%;
+    }
+
     .take-action-box {
+        position: relative;
         display: flex;
-        height: 6em;
-        width: 85%;
-        flex-flow: column nowrap;
-        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
         font-family: Helvetica, sans-serif;
     }
     .take-action-legend {
-        position: relative;
+        position: absolute;
         top: -1.5em;
-        left: 25%;
+        align-self: center;
     }
+
     .take-action-items{
         color: #354463;
         display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        justify-content: space-between;
     }
 
     .take-action-items p {
-        width: 40%;
+        padding: 1em;
+        width: 35%;
         font-weight: 100;
         opacity: 0.8;
-        font-size: 0.7em;
-        line-height: 1.5em;
+        font-size: 0.65em;
+        line-height: 1.35em;
     }
     .take-action-items strong{
         font-weight: 930;
-        font-size: 1.52em;
+        font-size: 1.6em;
         opacity: 1;
     }
 
-    .text-volunteer {
-        align-self: flex-end;
-        position: absolute;
-        top: 2.5em;
-        margin-right: auto;
-    }
-
-    .text-share {
-        margin-top: 2em;
-    }
-
-    .text-donate {
-        align-self: flex-end;
-        position: absolute;
-        margin-top : 4em;
-    }
 }
 
  /* CSS for The What We Do Section */
