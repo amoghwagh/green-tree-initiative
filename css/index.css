@@ -19,7 +19,7 @@
         .the-issue-box{
             margin-top: 5em;
             height: auto;
-            width: 25rem;
+            width: 23rem;
             background: #FFFFFF;
             border: none;
             position: relative;
@@ -44,7 +44,7 @@
             font-weight: 600;
             font-size: 1.9em;
             text-align: left;
-            width: 80%;
+            width: 85%;
             height: auto;
             padding-bottom: 0.8em;
             padding-top: 0.8em;
@@ -57,8 +57,8 @@
             font-family: Helvetica, sans-serif;
             font-weight: lighter;
             opacity: 0.8;
-            font-size: 0.85em;
-            margin-left: 3.25em;
+            font-size: 0.7em;
+            margin-left: 4em;
             padding-bottom: 1.4em;
         }
     
@@ -71,7 +71,7 @@
         .text-climate{
             height: 10em;
             align-self: center;
-            margin-right: 10em;
+            margin-right: 14%;
         }
     
     /* Responsive version of The Issue Box */
@@ -230,84 +230,49 @@
         .section2{
             background-color: #C1F7D5;
             height: 9em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
         }
-    
+        
         .take-action-box {
             display: flex;
             height: 6.5em;
+            width: 100%;
             flex-flow: column nowrap;
-            justify-content: space-between;
+            justify-content: space-around;
             font-family: Helvetica, sans-serif;
-            position: absolute;
         }
         .take-action-legend {
-            position: relative;
-            top: -1.5em;
-            left: 37.5%;
+            position: absolute;
+            top: -1em;
+            align-self: center;
+            z-index: 1;
         }
         .take-action-items{
             color: #354463;
             display: flex;
+            width: 100%;
             flex-flow: row nowrap;
             justify-content: space-between;
         }
     
         .take-action-items p {
-            width: 23%;
+            width: 21%;
             font-weight: 100;
             opacity: 0.8;
             font-size: 0.8em;
-            line-height: 1.5em;
+            line-height: 1.4em;
         }
         .take-action-items strong{
             font-weight: 930;
-            font-size: 1.72em;
+            font-size: 1.7em;
             opacity: 1;
         }
     
         /* Responsive Layout for Take Action Section */
-    
-    /* Responsive for Laptop  */
-        @media all and (max-width:1280px) {
-            .section2{
-                background-color: #C1F7D5;
-                height: 8em;
-            }
-        
-            .take-action-box {
-                display: flex;
-                height: 6.5em;
-                flex-flow: column nowrap;
-                justify-content: space-between;
-                font-family: Helvetica, sans-serif;
-                position: absolute;
-            }
-            .take-action-legend {
-                position: relative;
-                top: -1.5em;
-                left: 37.5%;
-            }
-            .take-action-items{
-                color: #354463;
-                display: flex;
-                flex-flow: row nowrap;
-                justify-content: space-between;
-            }
-        
-            .take-action-items p {
-                width: 23%;
-                font-weight: 100;
-                opacity: 0.8;
-                font-size: 0.8em;
-                line-height: 1.5em;
-            }
-            .take-action-items strong{
-                font-weight: 930;
-                font-size: 1.72em;
-                opacity: 1;
-            }
-        }
-    
+
         /* Responsive Layout of Take Action Section for Tablet */
      @media all and (min-width : 765px) and (max-width : 1024px){
         .section2{
