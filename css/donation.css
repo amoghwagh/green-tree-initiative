@@ -11,3 +11,27 @@
     margin-right: 0;
     width: 7em;
 }
+
+.footer-wrap .text-wrap {
+    position: relative;
+    left: 0 !important;
+}
+
+/* Responsive Layout of Footer for Tablets */
+
+@media all and (min-width : 765px) and (max-width : 1024px){
+    .footer-wrap .text-wrap {
+        position: relative;
+        left: -2em !important;
+    }
+}
+
+/* Responsive Layout of Footer Section for Mobiles */
+
+@media all and (max-width:765px) {
+    .footer-wrap .text-wrap {
+        position: relative;
+        left: -1em !important;
+    }
+}
+
