@@ -563,7 +563,7 @@
     
 @media all and (max-width:765px) {
     .section3 {
-        height: 90em;
+        height: 82em;
         background-color: #354463;
     }
 
@@ -597,12 +597,14 @@
 
     .what-we-do-boxes {
         display: flex;
+        align-self: center;
         height: 60%;
         width: 100%;
+        max-width: 20em;
         flex-flow: column nowrap;
         color : #354463;
         position: relative;
-        top: -10%;
+        top: -14%;
     }
     .what-we-do-boxes img {
         width: 80%;
