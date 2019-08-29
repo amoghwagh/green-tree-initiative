@@ -151,8 +151,6 @@ footer {
 
 /* Responsive Layout of Footer Section for Mobiles */
 
-
-
 @media all and (max-width:765px) {
    footer {
        height: 18rem;
