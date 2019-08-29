@@ -30,7 +30,6 @@
 .container h2 {
     font-size: 1.5em;
     font-weight: 800;
-
 }
 
 form {
@@ -97,14 +96,10 @@ form .row7 h2 {
     width: 90%;
 }
 
-
-
 form .payment-form .row8 {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 form input[type=text],input[type=email], select {
     background: #354463;
@@ -164,18 +159,173 @@ form .payment-form a {
     top:0 !important;
 }
 
-/* Responsive Layout of Footer for Tablets */
-
+/* Responsive Layout of Donation page for Tablets */
 @media all and (min-width : 765px) and (max-width : 1024px){
+
+    .donation-form {
+        height: 75em;
+    }
+    .container {
+        height: 85%;
+        flex-flow: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .donation-form .text-wrap {
+        font-family: ‘flood-std’;
+        font-size: 2.2em;
+        width: 70%;
+        margin-top: 2em;
+    }
+
     .footer-wrap .text-wrap {
         position: relative;
         left: -2em !important;
     }
 }
 
-/* Responsive Layout of Footer Section for Mobiles */
+/* Responsive Layout of Dontaion page for Mobiles */
 
 @media all and (max-width:765px) {
+
+    .container {
+        flex-flow: column-reverse;
+    }
+
+    #logo {
+        padding-bottom: 2em;
+    }
+
+    form {
+        background: #354463;
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .container h2 {
+        font-size: 1.1em;
+        font-weight: 800;
+    }
+    
+    form .information-form, .payment-form {
+        width: 80%;
+        height: 22em;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    
+    form p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.6em;
+        opacity: 0.95;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    form .information-form .row1 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    
+    form .information-form .row3 {
+        display: flex;
+        justify-content: space-between;
+    }
+ 
+    .col2 {
+        margin: 0 0.8em;
+    }
+
+    .row3 input[type=text],input[type=email], select {
+        width: 100%;
+    }
+    
+    form .payment-form .row6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    form .row7 h2 {
+        font-size: 1.3em;
+    }
+    .payment-form .row6 {
+     width: 80%;
+    }
+    
+    .payment-form .row6 div {
+        width: 25%;
+    }
+    
+    .payment-form .row6 p {
+        line-height: 1.2em;
+    }
+    
+    .payment-form .row7 {
+        width: 90%;
+    }
+    
+    form .payment-form .row8 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    form input[type=text],input[type=email], select {
+        background: #354463;
+        border: none;
+        border-bottom: 0.1em solid #C1F7D5; 
+        padding-top: 1em;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    form ::placeholder {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1.2em;
+        letter-spacing: -0.4px;
+        height: 100%;
+        color: #FFFFFF;
+        opacity: 0.2;
+    }
+    
+    form .payment-form a {
+        color: #C1F7D5;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 0.8em;
+        letter-spacing: -0.16px;
+    }
+    
+    .payment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85em;
+        font-weight: 600; 
+        width: 11em;
+        height: 2.5em;
+        padding: 0;
+        border: none;
+    }
+    
+    .donation-form .text-wrap {
+        font-family: ‘flood-std’;
+        font-size: 1.5em;
+        width: 100%;
+        margin-top: 2em;
+        align-self: center;
+    }
+
     .footer-wrap .text-wrap {
         position: relative;
         left: -1em !important;
