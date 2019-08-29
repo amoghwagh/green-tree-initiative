@@ -442,6 +442,8 @@
   justify-content: space-around;
   background: #FFFFFF;
   height: 100%;
+  min-width: 11em;
+  max-width: 14em;
 }
 
 .common-box strong {
@@ -539,6 +541,8 @@
     background: #FFFFFF;
     height: 15em;
     width: 100%;
+    min-width: unset;
+    max-width: 35em;
   }
 
   .common-box strong {
