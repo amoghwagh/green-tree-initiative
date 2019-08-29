@@ -45,8 +45,8 @@ form {
 }
 
 form .information-form, .payment-form {
-    width: 80%;
-    height: 22em;
+    width: 75%;
+    height: 21em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
