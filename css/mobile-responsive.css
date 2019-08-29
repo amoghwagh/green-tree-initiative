@@ -20,7 +20,6 @@
   .the-issue-box {
     width: 90%;
     height: 12rem;
-    background: #FFFFFF;
     border: none;
     margin: auto;
   }
@@ -47,7 +46,6 @@
     margin-bottom: 0;
     padding-top: 1em;
     line-height: 1.3em;
-    color: #354463;
     margin: auto;
     text-align: center;
   }
@@ -59,10 +57,6 @@
     width: 80%;
     text-align: center;
     margin: auto;
-  }
-
-  .text-link a:visited {
-    color: #354463;
   }
 
   /* Stop Climate Change Text */
@@ -101,7 +95,6 @@
   }
 
   .take-action-items {
-    color: #354463;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -125,13 +118,10 @@
   /* Responsive Layout of What We Do Section */
   .section-what-we-do {
     height: 82em;
-    background-color: #354463;
   }
 
   .what-we-do-legend {
-    background-color: white;
     font-size: 0.8em;
-    color: #354463;
     font-weight: 500;
     width: 50%;
     align-self: center;
@@ -147,11 +137,8 @@
   }
 
   .text-mission {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
     font-size: 1.1em;
     text-align: center;
-    color: #FFFFFF;
     width: 100%;
     position: relative;
     top: -10%;
@@ -159,12 +146,11 @@
 
   .what-we-do-boxes {
     display: flex;
+    flex-flow: column nowrap;
     align-self: center;
     height: 60%;
     width: 100%;
     max-width: 20em;
-    flex-flow: column nowrap;
-    color: #354463;
     position: relative;
     top: -14%;
 
@@ -181,7 +167,6 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    background: #FFFFFF;
     height: 100%;
     min-width: unset;
     max-width: unset;
@@ -273,7 +258,6 @@
   .did-you-know-container {
     position: relative;
     margin-top: 4em;
-
   }
 
   .did-you-know-wrap-box {
@@ -281,7 +265,6 @@
     flex-flow: column wrap;
     justify-content: space-evenly;
     height: 32em;
-    color: #354463;
     position: relative;
     margin-top: 1.5em;
   }
@@ -314,7 +297,6 @@
     align-items: center;
     width: 1.2em;
     height: 1.2em;
-    background: #C1F7D5;
     border-radius: 50%;
     margin: 0.5em 0;
   }
@@ -334,33 +316,7 @@
     left: 25%;
   }
 
-  .box1 {
-    background: #FFFFFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 20%;
-    width: 100%;
-  }
-
-  .box2 {
-    background: #FFFFFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 20%;
-    width: 100%;
-
-  }
-
-  .box3 {
-    background: #FFFFFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 20%;
-    width: 100%;
-  }
-
-  .box4 {
-    background: #FFFFFF;
+  .boxes {
     display: flex;
     flex-flow: row nowrap;
     height: 20%;
@@ -590,7 +546,7 @@
   }
 
   /* Responsive Layout of the Newsletter for Mobiles */
-  
+
   .section-newsletter {
     height: 10rem;
     background-color: #C1F7D5;

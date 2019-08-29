@@ -321,38 +321,13 @@
     left: 7%;
   }
 
-  .box1 {
-    background: #FFFFFF;
+  .boxes {
     display: flex;
     flex-flow: row nowrap;
     height: 15%;
     width: 100%;
   }
 
-  .box2 {
-    background: #FFFFFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 15%;
-    width: 100%;
-
-  }
-
-  .box3 {
-    background: #FFFFFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 15%;
-    width: 100%;
-  }
-
-  .box4 {
-    background: #FFFFFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 15%;
-    width: 100%;
-  }
 
   /* Responsive Layout of Stories Section */
   .section-stories {
