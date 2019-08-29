@@ -59,13 +59,16 @@
   font-size: 0.7em;
   margin-left: 4em;
   padding-bottom: 1.4em;
-  text-decoration: none;
+}
+
+.text-link a {
+  text-decoration: underline;
   color: #354463;
 }
 
 .text-link a:visited {
   color: #354463;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Stop Climate Change Text */
