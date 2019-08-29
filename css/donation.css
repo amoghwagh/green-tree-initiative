@@ -41,6 +41,7 @@ form {
     align-items: center;
     color: #FFFFFF;
     margin-top: 5em;
+    margin-right: 2.5em;
 }
 
 form .information-form, .payment-form {
@@ -167,7 +168,7 @@ form .payment-form a {
 @media all and (min-width : 765px) and (max-width : 1024px){
 
     .donation-form {
-        height: 75em;
+        height: 68em;
     }
     .container {
         height: 85%;
@@ -175,12 +176,15 @@ form .payment-form a {
         justify-content: space-around;
         align-items: center;
     }
+    form {
+        margin-top: 2.75em;
+    }
     
     .donation-form .text-wrap {
         font-family: ‘flood-std’;
         font-size: 2.2em;
         width: 70%;
-        margin-top: 2em;
+        margin-top: 1.5em;
     }
 
     .footer-wrap .text-wrap {
@@ -192,6 +196,10 @@ form .payment-form a {
 /* Responsive Layout of Donation page for Mobiles */
 
 @media all and (max-width:765px) {
+
+    .donation-form {
+        height: 60em;
+    }
 
     .container {
         flex-flow: column-reverse;
@@ -210,6 +218,7 @@ form .payment-form a {
         justify-content: space-around;
         align-items: center;
         color: #FFFFFF;
+        margin-top: 2em;
     }
 
     .container h2 {
