@@ -1,8 +1,8 @@
 @media all and (min-width : 765px) and (max-width : 1023px) {
 
-/* Responsive Layout of The Issue Section*/
+  /* Responsive Layout of The Issue Section*/
 
-.section-issue {
+  .section-issue {
     margin-top: 1%;
     background: url(../assets/home/annie-spratt-135307-unsplash@2x.png) no-repeat;
     height: 43em;
@@ -359,8 +359,9 @@
     top: 95%;
     left: 10%;
   }
-/* Responsive Layout of Events and Latest News */
-.section-events {
+
+  /* Responsive Layout of Events and Latest News */
+  .section-events {
     height: 60em;
   }
 
@@ -464,6 +465,7 @@
     font-size: 0.75em;
     width: 10em;
   }
+
   /* Responsive Layout of Newsletter */
   .section-newsletter {
     height: 10em;

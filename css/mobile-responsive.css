@@ -1,6 +1,7 @@
 @media all and (max-width:765px) {
-/* Responsive Layout of The Issue Section*/
-.section-issue {
+
+  /* Responsive Layout of The Issue Section*/
+  .section-issue {
     margin-top: 5%;
     background: url(../assets/home/annie-spratt-135307-unsplash@3x.png) no-repeat;
     height: 32em;

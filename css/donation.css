@@ -1,121 +1,320 @@
 /* Header CSS */
 
 .container-header {
-    height: 6em;
-    display: flex;
+  height: 6em;
+  display: flex;
 }
 
 #logo {
-    text-align: center;
-    margin-right: unset;
-    width: 7em;
-    margin: auto;
-    padding-bottom: 4em;
+  text-align: center;
+  margin-right: unset;
+  width: 7em;
+  margin: auto;
+  padding-bottom: 4em;
 }
 
 .donation-form {
-    background: url(../assets/donation/annie-spratt-427340-unsplash-\(1\).png);
-    background-size: cover;
-    background-position: center;
-    height: 65em;
+  background: url(../assets/donation/annie-spratt-427340-unsplash-\(1\).png);
+  background-size: cover;
+  background-position: center;
+  height: 65em;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .container h2 {
-    font-size: 1.5em;
-    font-weight: 800;
+  font-size: 1.5em;
+  font-weight: 800;
 }
 
 form {
-    background: #354463;
-    width: 32em;
-    height: 50em;
+  background: #354463;
+  width: 32em;
+  height: 50em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: 5em;
+  margin-right: 2.5em;
+}
+
+form .information-form,
+.payment-form {
+  width: 75%;
+  height: 21em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+form p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.047em;
+  font-size: 0.7em;
+  opacity: 0.95;
+  text-transform: uppercase;
+}
+
+form .information-form .row1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+form .information-form .row3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .payment-form .row6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+form .row7 h2 {
+  font-size: 1.3em;
+}
+
+.payment-form .row6 {
+  width: 80%;
+}
+
+.payment-form .row6 div {
+  width: 25%;
+}
+
+.payment-form .row6 p {
+  line-height: 1.2em;
+}
+
+.payment-form .row7 {
+  width: 90%;
+}
+
+form .payment-form .row8 {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input[type=text],
+input[type=email],
+select {
+  background: #354463;
+  border: none;
+  border-bottom: 0.1em solid #C1F7D5;
+  padding-top: 1em;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+form select {
+  color: #C1F7D5;
+  opacity: 0.7;
+}
+
+form ::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  letter-spacing: -0.4px;
+  height: 100%;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+form .payment-form a {
+  color: #C1F7D5;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 0.8em;
+  letter-spacing: -0.16px;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85em;
+  font-weight: 600;
+  width: 11em;
+  height: 2.5em;
+  padding: 0;
+  border: none;
+}
+
+.donation-form .text-wrap {
+  font-family: ‘flood-std’;
+  color: #FFFFFF;
+  font-size: 3.33em;
+  width: 30%;
+}
+
+
+/* Footer CSS */
+.footer-wrap .text-wrap {
+  position: relative;
+  left: 0 !important;
+}
+
+.container-footer #logo {
+  top: 0 !important;
+}
+
+/* Responsive Layout of Donation page for Tablets */
+@media all and (min-width : 765px) and (max-width : 1024px) {
+
+  .donation-form {
+    height: 68em;
+  }
+
+  .container {
+    height: 85%;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  form {
+    margin-top: 2.75em;
+  }
+
+  .donation-form .text-wrap {
+    font-size: 2.2em;
+    width: 70%;
+    margin-top: 1.5em;
+  }
+
+  .footer-wrap .text-wrap {
+    position: relative;
+    left: -2em !important;
+  }
+}
+
+/* Responsive Layout of Donation page for Mobiles */
+
+@media all and (max-width:765px) {
+
+  .donation-form {
+    height: 60em;
+  }
+
+  .container {
+    flex-flow: column-reverse;
+  }
+
+  #logo {
+    padding-bottom: 2em;
+  }
+
+  form {
+    width: 100%;
+    height: 45em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
-    color: #FFFFFF;
-    margin-top: 5em;
-    margin-right: 2.5em;
-}
+    margin-top: 2em;
+  }
 
-form .information-form, .payment-form {
+  .container h2 {
+    font-size: 1.05em;
+    font-weight: 800;
+  }
+
+  form .information-form,
+  .payment-form {
     width: 75%;
-    height: 21em;
+    height: 20em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-}
+  }
 
-form p {
+  form p {
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.047em;
-    font-size: 0.7em;
+    font-size: 0.6em;
     opacity: 0.95;
     text-transform: uppercase;
-}
+    letter-spacing: 0.05em;
+  }
 
-form .information-form .row1 {
+  form .information-form .row1 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-}
+  }
 
-form .information-form .row3 {
+  form .information-form .row3 {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-form .payment-form .row6 {
+  .col2 {
+    margin: 0 0.8em;
+  }
+
+  .row3 input[type=text],
+  input[type=email],
+  select {
+    width: 100%;
+  }
+
+  form .payment-form .row6 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-}
+  }
 
-form .row7 h2 {
-    font-size: 1.3em;
-}
-.payment-form .row6 {
- width: 80%;
-}
+  form .row7 h2 {
+    font-size: 0.9em;
+  }
 
-.payment-form .row6 div {
+  .payment-form .row6 {
+    width: 80%;
+  }
+
+  .payment-form .row6 div {
     width: 25%;
-}
+  }
 
-.payment-form .row6 p {
+  .payment-form .row6 p {
     line-height: 1.2em;
-}
+  }
 
-.payment-form .row7 {
-    width: 90%;
-}
-
-form .payment-form .row8 {
-    display: flex;
-    justify-content: space-between;
-}
-
-form input[type=text],input[type=email], select {
-    background: #354463;
-    border: none;
-    border-bottom: 0.1em solid #C1F7D5; 
-    padding-top: 1em;
-    color: #FFFFFF;
+  .payment-form .row7 {
+    font-size: 0.9em;
     width: 100%;
-}
+  }
 
-form select {
-    color: #C1F7D5;
+  form .payment-form .row8 {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+    height: 3em;
+  }
+
+  form input[type=text],
+  input[type=email],
+  select {
+    border: none;
+    border-bottom: 0.1em solid #C1F7D5;
+    padding-top: 1em;
+    width: 100%;
+  }
+
+  form select {
     opacity: 0.7;
-}
+  }
 
-form ::placeholder {
+  form ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 1.2em;
@@ -123,234 +322,46 @@ form ::placeholder {
     height: 100%;
     color: #FFFFFF;
     opacity: 0.2;
-}
+  }
 
-form .payment-form a {
-    color: #C1F7D5;
-    text-decoration: underline;
+  form .payment-form a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    text-decoration: underline;
     letter-spacing: -0.16px;
-}
+  }
 
-.payment {
+  .payment {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
-    font-size: 0.85em;
-    font-weight: 600; 
-    width: 11em;
-    height: 2.5em;
+    align-self: center;
+    font-size: 0.6em;
+    font-weight: 600;
+    width: 100%;
+    height: 3em;
     padding: 0;
     border: none;
-}
+  }
 
-.donation-form .text-wrap {
-    font-family: ‘flood-std’;
-    color: #FFFFFF;
-    font-size: 3.33em;
-    width: 30%;
-}
+  .donation-form .text-wrap {
+    font-size: 1.5em;
+    width: 100%;
+    margin-top: 2em;
+    align-self: center;
+  }
 
-
-/* Footer CSS */
-.footer-wrap .text-wrap {
+  .footer-wrap .text-wrap {
     position: relative;
-    left: 0 !important;
+    left: -1em !important;
+  }
+
+  .container-footer #logo {
+    top: 0 !important;
+    margin: unset;
+    width: 15% !important;
+    text-align: left !important;
+  }
 }
-
-.container-footer #logo {
-    top:0 !important;
-}
-
-/* Responsive Layout of Donation page for Tablets */
-@media all and (min-width : 765px) and (max-width : 1024px){
-
-    .donation-form {
-        height: 68em;
-    }
-    .container {
-        height: 85%;
-        flex-flow: column-reverse;
-        justify-content: space-around;
-        align-items: center;
-    }
-    form {
-        margin-top: 2.75em;
-    }
-    
-    .donation-form .text-wrap {
-        font-size: 2.2em;
-        width: 70%;
-        margin-top: 1.5em;
-    }
-
-    .footer-wrap .text-wrap {
-        position: relative;
-        left: -2em !important;
-    }
-}
-
-/* Responsive Layout of Donation page for Mobiles */
-
-@media all and (max-width:765px) {
-
-    .donation-form {
-        height: 60em;
-    }
-
-    .container {
-        flex-flow: column-reverse;
-    }
-
-    #logo {
-        padding-bottom: 2em;
-    }
-
-    form {
-        width: 100%;
-        height: 45em;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 2em;
-    }
-
-    .container h2 {
-        font-size: 1.05em;
-        font-weight: 800;
-    }
-    
-    form .information-form, .payment-form {
-        width: 75%;
-        height: 20em;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-between;
-    }
-    
-    form p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.6em;
-        opacity: 0.95;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-
-    form .information-form .row1 {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-    }
-    
-    form .information-form .row3 {
-        display: flex;
-        justify-content: space-between;
-    }
- 
-    .col2 {
-        margin: 0 0.8em;
-    }
-
-    .row3 input[type=text],input[type=email], select {
-        width: 100%;
-    }
-    
-    form .payment-form .row6 {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-    }
-    
-    form .row7 h2 {
-        font-size: 0.9em;
-    }
-    .payment-form .row6 {
-     width: 80%;
-    }
-    
-    .payment-form .row6 div {
-        width: 25%;
-    }
-    
-    .payment-form .row6 p {
-        line-height: 1.2em;
-    }
-    
-    .payment-form .row7 {
-        font-size: 0.9em;
-        width: 100%;
-    }
-    
-    form .payment-form .row8 {
-        display: flex;
-        flex-flow: column-reverse;
-        justify-content: space-between;
-        height: 3em;
-    }
-    
-    form input[type=text],input[type=email], select {
-        border: none;
-        border-bottom: 0.1em solid #C1F7D5; 
-        padding-top: 1em;
-        width: 100%;
-    }
-
-    form select {
-        opacity: 0.7;
-    }
-    
-    form ::placeholder {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
-        font-size: 1.2em;
-        letter-spacing: -0.4px;
-        height: 100%;
-        color: #FFFFFF;
-        opacity: 0.2;
-    }
-    
-    form .payment-form a {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
-        font-size: 0.7em;
-        text-decoration: underline;
-        letter-spacing: -0.16px;
-    }
-    
-    .payment {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-        font-size: 0.6em;
-        font-weight: 600; 
-        width: 100%;
-        height: 3em;
-        padding: 0;
-        border: none;
-    }
-    
-    .donation-form .text-wrap {
-        font-size: 1.5em;
-        width: 100%;
-        margin-top: 2em;
-        align-self: center;
-    }
-
-    .footer-wrap .text-wrap {
-        position: relative;
-        left: -1em !important;
-    }
-
-    .container-footer #logo {
-        top: 0 !important;
-        margin: unset;
-        width: 15% !important;
-        text-align: left !important;
-    }
-}
-
